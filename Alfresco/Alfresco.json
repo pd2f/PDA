@@ -903,7 +903,7 @@
 			"name": "Configurações",
 			"item": [
 				{
-					"name": "teste",
+					"name": "Propriedade",
 					"id": "9bb13516-8b03-41aa-89fc-d09daf0f211c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -964,17 +964,17 @@
 	],
 	"variable": [
 		{
-			"id": "10065c71-0e96-4c53-8477-4a404ed0a350",
+			"id": "0a9ff97b-9643-4514-990e-8511176e29b8",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "a091490c-a059-4b29-9ab8-990471ec697e",
+			"id": "955e31c9-3228-41e3-8d8e-23bc961cd7e9",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "a72ebefc-8ad4-4d56-8dc5-d7131f1c8b49",
+			"id": "dd22c8ea-748f-4e76-8085-653710736869",
 			"key": "elemento",
 			"value": "inst_document"
 		}
