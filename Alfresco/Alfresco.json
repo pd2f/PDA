@@ -922,7 +922,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{dominio}}/api/classes/act_action/property/sys_referenceable"
 					},
 					"response": []
 				},
@@ -974,12 +975,12 @@
 	],
 	"variable": [
 		{
-			"id": "440dec9c-cd06-4942-9ea2-a7b5c039c00e",
+			"id": "3b4cf204-d3d0-4dcc-b699-c62e4bbe0a19",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "74799709-5ad1-43b8-8c49-1f46735d5234",
+			"id": "790af826-906e-4502-87cf-b04e09eecf1b",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
