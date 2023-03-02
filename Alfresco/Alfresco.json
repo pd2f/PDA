@@ -23,7 +23,7 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "testeabacaxi.txt",
+									"value": "testemorango.txt",
 									"type": "text"
 								},
 								{
@@ -39,6 +39,11 @@
 								{
 									"key": "nodeType",
 									"value": "inst:document",
+									"type": "text"
+								},
+								{
+									"key": "nomeOriginal",
+									"value": "testemorango.txt",
 									"type": "text"
 								}
 							]
@@ -814,12 +819,12 @@
 	],
 	"variable": [
 		{
-			"id": "5dc91700-0bbc-4bb0-9674-fc6a6d72e578",
+			"id": "89672076-c8fd-46ed-adbc-9524e342b326",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "184f6cad-bde5-42c3-9de2-c0f1ccb08a20",
+			"id": "e73e1b4b-6de3-4d94-9686-c3414193f15f",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
