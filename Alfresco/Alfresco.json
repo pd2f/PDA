@@ -924,7 +924,8 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{dominio}}/alfresco/s/api/classes/{{elemento}}"
+						"url": "{{dominio}}/alfresco/s/api/classes/{{elemento}}",
+						"description": "Essa consulta retorna os atributos das classes. Muito útil para conhecimento dos itens de preenchimento obrigatório, por exemplo."
 					},
 					"response": []
 				},
@@ -975,17 +976,17 @@
 	],
 	"variable": [
 		{
-			"id": "7b497631-5dee-41dc-8ba2-3cab458c7821",
+			"id": "9e30bf50-b524-4def-ae40-e8887053721f",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "45aedfae-3c09-4024-bf49-a75733d205b0",
+			"id": "33937490-cde4-407b-a3dc-4149997768bf",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "e3881b8b-c283-4184-830f-eb0fe11afd9e",
+			"id": "80927e30-1216-4c92-81bb-36f6c0662e3c",
 			"key": "elemento",
 			"value": "inst_document"
 		}
