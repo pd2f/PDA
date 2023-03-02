@@ -927,6 +927,18 @@
 						"url": "{{dominio}}/alfresco/s/api/classes"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "89e567b8-0520-4b6f-b518-34e0f30a18a9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "61d86cc1-113c-4fb4-af40-25ec0ed00e53"
@@ -963,12 +975,12 @@
 	],
 	"variable": [
 		{
-			"id": "40e1217d-8e5b-4d97-95b5-57cad07ae6d9",
+			"id": "4884c40a-2fe0-4f29-b273-c2f3392aca46",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "eed209df-82c5-4219-8ce3-4100ce305dbf",
+			"id": "d2e3fd35-fd3a-48cc-8c5a-7a01ce433b5c",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
