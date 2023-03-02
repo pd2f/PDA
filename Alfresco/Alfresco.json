@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Criação do Recurso (Arquivo)",
-					"_postman_id": "5a1bdae7-2fc3-4223-b9e8-5f3611211718",
+					"id": "5a1bdae7-2fc3-4223-b9e8-5f3611211718",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -41,10 +41,7 @@
 									"value": "inst:document",
 									"type": "text"
 								}
-							],
-							"options": {
-								"formdata": {}
-							}
+							]
 						},
 						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/nodes/cfa90ad8-1f36-4e61-90c7-56fad4c519de/children"
 					},
@@ -59,7 +56,6 @@
 									"mode": "raw",
 									"raw": "{\r\n  \"name\":\"hahaha.txt\",\r\n  \"nodeType\":\"cm:content\"\r\n}",
 									"options": {
-										"file": {},
 										"raw": {
 											"language": "json"
 										}
@@ -139,7 +135,6 @@
 										}
 									],
 									"options": {
-										"file": {},
 										"raw": {
 											"language": "json"
 										}
@@ -196,7 +191,7 @@
 				},
 				{
 					"name": "Atualizar Metadados",
-					"_postman_id": "b35486ff-b999-4fb1-8bed-8cb6c7ceb740",
+					"id": "b35486ff-b999-4fb1-8bed-8cb6c7ceb740",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -205,26 +200,26 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"0500d393-40c3-4bba-b9c1-466e02fa6108.csv\",\r\n    \"content\": {\r\n    \"mimeType\":\"txt/csv\"\r\n    },\r\n\r\n    \"properties\": {\r\n        \"inst:processoTransversalList\": \"Prover Informações ao Mercado\",\r\n        \"inst:subprocessoTransversalList\": \"Disponibilizar Informações ao Mercado\",\r\n        \"inst:tipoDocumentalList\": \"Tabela de Datasets\",\r\n        \"inst:origem\": \"PDA\",\r\n        \"inst:idTransacao\": \"transação\",\r\n        \"inst:cnpj\": \"03034433000156\",\r\n        \"inst:especieList\": \"Tabela\",\r\n        \"inst:nomeDocumentoList\": \"Tabela de Datasets de Geração por Fonte Primária\",\r\n        \"inst:rotuloDocumentoList\": \"Comercialização de Energia\",\r\n        \"inst:estruturaDocumentoList\": \"Parte do Processo\",\r\n        \"inst:valorList\": \"Analítico\",\r\n        \"inst:nivelAcessoList\": \"Público\",\r\n        \"inst:midiaList\": \"Digital\",\r\n        \"inst:formaList\": \"Original\",\r\n        \"inst:insercaoList\": \"Upload\",\r\n        \"inst:custodiadorList\": \"CCEE\",\r\n        \"inst:mesReferencia\": \"01\",\r\n        \"inst:anoReferencia\": \"2023\",\r\n        \"inst:categoria\": \"fruta\",\r\n        \"inst:palavraChave\": \"banana,abacaxi,morango\",\r\n        \"inst:nomeOriginal\": \"0500d393-40c3-4bba-b9c1-466e02fa6108\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"name\": \"testemorango.csv\",\r\n    \"content\": {\r\n    \"mimeType\":\"txt/csv\"\r\n    },\r\n\r\n    \"properties\": {\r\n        \"inst:processoTransversalList\": \"Prover Informações ao Mercado\",\r\n        \"inst:subprocessoTransversalList\": \"Disponibilizar Informações ao Mercado\",\r\n        \"inst:tipoDocumentalList\": \"Tabela de Datasets\",\r\n        \"inst:origem\": \"PDA\",\r\n        \"inst:idTransacao\": \"transação\",\r\n        \"inst:cnpj\": \"03034433000156\",\r\n        \"inst:especieList\": \"Tabela\",\r\n        \"inst:nomeDocumentoList\": \"Tabela de Datasets de Geração por Fonte Primária\",\r\n        \"inst:rotuloDocumentoList\": \"Comercialização de Energia\",\r\n        \"inst:estruturaDocumentoList\": \"Parte do Processo\",\r\n        \"inst:valorList\": \"Analítico\",\r\n        \"inst:nivelAcessoList\": \"Público\",\r\n        \"inst:midiaList\": \"Digital\",\r\n        \"inst:formaList\": \"Original\",\r\n        \"inst:insercaoList\": \"Upload\",\r\n        \"inst:custodiadorList\": \"CCEE\",\r\n        \"inst:mesReferencia\": \"01\",\r\n        \"inst:anoReferencia\": \"2023\",\r\n        \"inst:categoria\": \"fruta\",\r\n        \"inst:palavraChave\": \"banana,abacaxi,morango\",\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/nodes/387dfb0a-f1fc-4435-b372-f926c79d1c74"
+						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/nodes/4e0aadfe-32d9-4a68-9670-e34aabce7bf9"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "ab7c9509-ec3e-48ce-99d3-6fdb4caee9f8"
+			"id": "ab7c9509-ec3e-48ce-99d3-6fdb4caee9f8"
 		},
 		{
 			"name": "Pesquisas",
 			"item": [
 				{
 					"name": "Discorvery",
-					"_postman_id": "20d3f1f2-f7ee-442f-b88d-9b343740a837",
+					"id": "20d3f1f2-f7ee-442f-b88d-9b343740a837",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -291,7 +286,7 @@
 				},
 				{
 					"name": "Discorvery CCEE",
-					"_postman_id": "98987fd7-2c0c-4ba7-ad58-19aecba4d60d",
+					"id": "98987fd7-2c0c-4ba7-ad58-19aecba4d60d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -410,7 +405,7 @@
 				},
 				{
 					"name": "Discorvery Tags",
-					"_postman_id": "f9e3771e-f755-41f8-bd1d-48be4684bfac",
+					"id": "f9e3771e-f755-41f8-bd1d-48be4684bfac",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -529,7 +524,7 @@
 				},
 				{
 					"name": "Discorvery Tags Copy",
-					"_postman_id": "118141a3-360a-4eef-a19f-747ff690d6d8",
+					"id": "118141a3-360a-4eef-a19f-747ff690d6d8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -701,7 +696,7 @@
 				},
 				{
 					"name": "Descoberta de Pasta",
-					"_postman_id": "8357b2e2-cd61-4c14-b6ab-15df295fdd42",
+					"id": "8357b2e2-cd61-4c14-b6ab-15df295fdd42",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -785,7 +780,7 @@
 					]
 				}
 			],
-			"_postman_id": "489c2a8e-ea85-4519-aeb0-b16db8e8ed39"
+			"id": "489c2a8e-ea85-4519-aeb0-b16db8e8ed39"
 		}
 	],
 	"auth": {
@@ -819,16 +814,14 @@
 	],
 	"variable": [
 		{
-			"id": "959d8890-548f-4a8f-b734-af229b748943",
+			"id": "5dc91700-0bbc-4bb0-9674-fc6a6d72e578",
 			"key": "id",
-			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917",
-			"type": "string"
+			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "ebd6bc57-54dc-4e46-a6e2-2fbd1d4d72b6",
+			"id": "184f6cad-bde5-42c3-9de2-c0f1ccb08a20",
 			"key": "dominio",
-			"value": "https://homged.energia.org.br",
-			"type": "string"
+			"value": "https://homged.energia.org.br"
 		}
 	]
 }
