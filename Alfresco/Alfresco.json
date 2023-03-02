@@ -299,13 +299,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://homged.energia.org.br/alfresco/api/-default-/public/alfresco/versions/1/queries/sites?term=ccee",
-							"protocol": "https",
+							"raw": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/queries/sites?term=ccee",
 							"host": [
-								"homged",
-								"energia",
-								"org",
-								"br"
+								"{{dominio}}"
 							],
 							"path": [
 								"alfresco",
@@ -967,12 +963,12 @@
 	],
 	"variable": [
 		{
-			"id": "6c47acff-3f40-4797-9782-7bbbca43db80",
+			"id": "40e1217d-8e5b-4d97-95b5-57cad07ae6d9",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "d658800c-48b0-466f-b891-a819593e0589",
+			"id": "eed209df-82c5-4219-8ce3-4100ce305dbf",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
