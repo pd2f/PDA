@@ -710,7 +710,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from cmis:folder  WHERE cmis:name LIKE 'Tabelas de Datasets'  and  IN_TREE('b426c321-4cb9-4430-87b5-d86b4db401cb')  and  IN_TREE('e83732e7-cb03-405d-8441-8dad1f152bbf')\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from  inst:identificadorDocAspect WHERE inst:palavraChave like '%banana%'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -881,12 +881,12 @@
 	],
 	"variable": [
 		{
-			"id": "dc40b3f7-0a86-4706-9708-de6910e0341d",
+			"id": "466e69b4-86bd-466e-8151-64c9c087c0e4",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "34992dd4-d6b1-43c0-9afc-29bacc48085b",
+			"id": "4dce0427-97d1-4fe0-bbbe-f4d581b17059",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
