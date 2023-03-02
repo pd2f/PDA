@@ -927,7 +927,7 @@
 			"name": "Configurações",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "teste",
 					"id": "9bb13516-8b03-41aa-89fc-d09daf0f211c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -973,12 +973,12 @@
 	],
 	"variable": [
 		{
-			"id": "ce6e53f8-24ce-48e7-b7dd-b347c5282add",
+			"id": "9d9e2b9d-ae64-41dd-a6f4-022831156d43",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "cf092d38-73f3-4583-8dac-bb60672649c4",
+			"id": "e2c1ecf1-b580-40c2-b440-29ecedb23d6b",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
