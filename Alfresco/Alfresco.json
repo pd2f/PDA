@@ -781,6 +781,68 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"createdAt\": \"2023-02-13T19:18:14.214+0000\",\n                    \"isFolder\": true,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"isFile\": false,\n                    \"createdByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"modifiedAt\": \"2023-02-23T19:04:32.362+0000\",\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"tmp_pda\",\n                    \"location\": \"nodes\",\n                    \"id\": \"cfa90ad8-1f36-4e61-90c7-56fad4c519de\",\n                    \"nodeType\": \"cm:folder\",\n                    \"parentId\": \"f68899de-2333-4f56-a0db-a566474a9fe0\"\n                }\n            }\n        ]\n    }\n}"
+						},
+						{
+							"id": "4ac4caf7-5575-425d-a879-587b2fc6d6cf",
+							"name": "Descoberta de Pasta",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from cmis:folder  WHERE cmis:name LIKE 'Tabelas de Datasets'  and  IN_TREE('b426c321-4cb9-4430-87b5-d86b4db401cb')  and  IN_TREE('e83732e7-cb03-405d-8441-8dad1f152bbf')\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://homged.energia.org.br/alfresco/api/-default-/public/search/versions/1/search"
+							},
+							"status": "200",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 02 Mar 2023 01:00:28 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips mod_jk/1.2.48"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"context\": {\n            \"consistency\": {\n                \"lastTxId\": 3327823\n            }\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"createdAt\": \"2023-02-13T19:21:20.024+0000\",\n                    \"isFolder\": true,\n                    \"search\": {\n                        \"score\": 4.1385646\n                    },\n                    \"isFile\": false,\n                    \"createdByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"modifiedAt\": \"2023-02-17T20:20:55.803+0000\",\n                    \"modifiedByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"name\": \"Tabelas de Datasets\",\n                    \"location\": \"nodes\",\n                    \"id\": \"9ac59c72-e39f-4d35-8275-ea13344ae920\",\n                    \"nodeType\": \"cm:folder\",\n                    \"parentId\": \"04f360a6-be7b-497b-bbc3-6010165c6968\"\n                }\n            }\n        ]\n    }\n}"
 						}
 					]
 				}
@@ -819,12 +881,12 @@
 	],
 	"variable": [
 		{
-			"id": "8daf1c0c-6a8d-4777-813c-b50de962629f",
+			"id": "dc40b3f7-0a86-4706-9708-de6910e0341d",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "ee50a0bf-1165-403d-81aa-08f5fa7b712b",
+			"id": "34992dd4-d6b1-43c0-9afc-29bacc48085b",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
