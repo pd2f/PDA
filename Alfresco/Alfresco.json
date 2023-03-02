@@ -924,7 +924,7 @@
 			"id": "489c2a8e-ea85-4519-aeb0-b16db8e8ed39"
 		},
 		{
-			"name": "New Folder",
+			"name": "Configurações",
 			"item": [],
 			"id": "61d86cc1-113c-4fb4-af40-25ec0ed00e53"
 		}
@@ -960,12 +960,12 @@
 	],
 	"variable": [
 		{
-			"id": "0052ce90-3821-47d7-b2dc-bc2cd2fe686f",
+			"id": "bed07959-fca9-459e-8868-9ec2d5cc3a2a",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "e8a88bb9-3657-4ec4-9e3d-63b00c805892",
+			"id": "f65d103a-49b9-40a8-8458-1e8063b242cd",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
