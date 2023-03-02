@@ -909,7 +909,7 @@
 					]
 				},
 				{
-					"name": "New Request",
+					"name": "Classes",
 					"id": "22f82a40-5987-49be-96d5-9d54ee6a8e69",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -955,12 +955,12 @@
 	],
 	"variable": [
 		{
-			"id": "6331b88f-55d8-4e44-8a10-86eefc4e8a33",
+			"id": "08a3d7d4-4f09-4d4b-8c9e-2ba5db6db168",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "eefcf2aa-2d35-4bd1-b255-2f1ef3f113a7",
+			"id": "8dfedacd-fca1-46a0-8035-4c7e12d3c273",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
