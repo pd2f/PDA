@@ -231,7 +231,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://homged.energia.org.br/alfresco/api/discovery"
+						"url": "{{dominio}}/alfresco/api/discovery"
 					},
 					"response": [
 						{
@@ -907,18 +907,6 @@
 							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 2,\n            \"hasMoreItems\": false,\n            \"totalItems\": 2,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:49:19.459+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"cfa90ad8-1f36-4e61-90c7-56fad4c519de\",\n                    \"createdAt\": \"2023-03-02T00:48:29.842+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testepesego.csv\",\n                    \"location\": \"nodes\",\n                    \"id\": \"b72c209b-ca5b-432b-93d6-0c1b3f91dec5\"\n                }\n            },\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:54:42.612+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"98b20bfe-ad8a-48e7-a12d-6894590c2de7\",\n                    \"createdAt\": \"2023-03-02T00:54:09.892+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testemaca.txt\",\n                    \"location\": \"nodes\",\n                    \"id\": \"a085d0fe-6f12-41e9-aed9-1ec3e6690b3d\"\n                }\n            }\n        ]\n    }\n}"
 						}
 					]
-				},
-				{
-					"name": "Classes",
-					"id": "22f82a40-5987-49be-96d5-9d54ee6a8e69",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
 				}
 			],
 			"id": "489c2a8e-ea85-4519-aeb0-b16db8e8ed39"
@@ -929,6 +917,18 @@
 				{
 					"name": "teste",
 					"id": "9bb13516-8b03-41aa-89fc-d09daf0f211c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Classes",
+					"id": "22f82a40-5987-49be-96d5-9d54ee6a8e69",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -973,12 +973,12 @@
 	],
 	"variable": [
 		{
-			"id": "9d9e2b9d-ae64-41dd-a6f4-022831156d43",
+			"id": "9d1f56d2-fd42-4305-a4d1-b43ec7d5a162",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "e2c1ecf1-b580-40c2-b440-29ecedb23d6b",
+			"id": "a66d39fa-2a90-4d5e-b022-63653aaf68a0",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		}
