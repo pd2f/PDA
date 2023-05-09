@@ -17,4 +17,3 @@ files[] = {"id":"12612810-6de0dc75-bac5-4706-8ad6-45ae03a1b3bf","path":"Atlas.js
 rootDirectory = postman/schemas
 
 [config.relations.apiDefinition.metaData]
-type = openapi:3
