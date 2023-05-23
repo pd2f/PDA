@@ -936,19 +936,6 @@
 			"name": "Download",
 			"item": [
 				{
-					"name": "Conteudo",
-					"id": "f09ec011-172d-4617-ae3d-b8cc3f45fa46",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/nodes/{{id_node_dir}}/content"
-					},
-					"response": []
-				},
-				{
 					"name": "Preparacao do Link",
 					"id": "04ef972b-07bc-48bd-9088-d37caa16c496",
 					"protocolProfileBehavior": {
@@ -1021,17 +1008,17 @@
 	],
 	"variable": [
 		{
-			"id": "279b33cb-ae05-47e8-9657-75e2a2c223a7",
+			"id": "6b3fcba9-03f7-40d7-9970-2de3a4d0b631",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "576eea74-4512-4996-bd9c-1541b76b0911",
+			"id": "29e207ca-e802-46f6-a565-75f0a0a9498e",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "721e53fa-7d30-404f-9baa-dc17939b6d72",
+			"id": "e17f196e-e56b-41f5-9ea9-0efde0721468",
 			"key": "elemento",
 			"value": "inst_document"
 		}
