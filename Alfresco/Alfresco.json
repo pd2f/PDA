@@ -934,7 +934,20 @@
 		},
 		{
 			"name": "Download",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "d3450152-46dd-4348-a49d-42f79708af04",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "2dd2233d-bb64-4080-94f9-5aa11b4894ab"
 		}
 	],
@@ -969,17 +982,17 @@
 	],
 	"variable": [
 		{
-			"id": "357a9d9a-101b-48af-bd9d-5ed006c1b74c",
+			"id": "94526b94-be41-4ad2-9fd1-d4b63430d352",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "7bceb8e2-229c-42f0-babc-a93ccf53ae20",
+			"id": "ed40d27d-cd46-4300-9cec-d77f812e3daa",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "ea06a37f-41d9-4602-81c8-2118657d1373",
+			"id": "fad714fe-cfbd-447b-a223-2df63e0e6a6c",
 			"key": "elemento",
 			"value": "inst_document"
 		}
