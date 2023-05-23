@@ -1006,14 +1006,18 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Donwload Link Compartilhado",
 					"id": "8a253019-d02f-4ed3-bdfd-5342f53059db",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/shared-links/v4o9UeMeR-SVLv-WQuEp4A/content"
 					},
 					"response": []
 				}
@@ -1052,17 +1056,17 @@
 	],
 	"variable": [
 		{
-			"id": "32cd6b8f-064c-4582-a2f0-1e4be12bcb0d",
+			"id": "532c3f83-3d8d-47df-91ab-52dcb96b2cad",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "340dcb04-c723-4180-b3af-190cb2bc4c20",
+			"id": "a50c9111-cbb7-43fb-9084-5f37d18527df",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "a4198fdf-7b36-4c16-a782-32dad8cdc0e4",
+			"id": "82840493-1e77-453b-9e05-c6a240ae02b0",
 			"key": "elemento",
 			"value": "inst_document"
 		}
