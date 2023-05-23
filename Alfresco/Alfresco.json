@@ -972,6 +972,22 @@
 						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/shared-links/v4o9UeMeR-SVLv-WQuEp4A/content"
 					},
 					"response": []
+				},
+				{
+					"name": "Lista Links Compartilhados",
+					"id": "787e5265-86bc-46ad-85bd-41f39fdaae86",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/shared-links/v4o9UeMeR-SVLv-WQuEp4A/content"
+					},
+					"response": []
 				}
 			],
 			"id": "2dd2233d-bb64-4080-94f9-5aa11b4894ab"
@@ -1008,17 +1024,17 @@
 	],
 	"variable": [
 		{
-			"id": "6b3fcba9-03f7-40d7-9970-2de3a4d0b631",
+			"id": "c37b5bfa-b787-4835-87bf-e19654d00903",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "29e207ca-e802-46f6-a565-75f0a0a9498e",
+			"id": "715e6a2d-800d-4007-bd0e-edf54179bf2b",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "e17f196e-e56b-41f5-9ea9-0efde0721468",
+			"id": "732f9617-3302-404d-b58a-3c86c66e7b41",
 			"key": "elemento",
 			"value": "inst_document"
 		}
