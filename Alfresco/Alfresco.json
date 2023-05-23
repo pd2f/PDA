@@ -205,7 +205,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"testemaca.csv\",\r\n    \"content\": {\r\n    \"mimeType\":\"txt/csv\"\r\n    },\r\n\r\n    \"properties\": {\r\n        \"inst:processoTransversalList\": \"Prover Informações ao Mercado\",\r\n        \"inst:subprocessoTransversalList\": \"Disponibilizar Informações ao Mercado\",\r\n        \"inst:tipoDocumentalList\": \"Tabela de Datasets\",\r\n        \"inst:origem\": \"PDA\",\r\n        \"inst:idTransacao\": \"transação\",\r\n        \"inst:cnpj\": \"03034433000156\",\r\n        \"inst:especieList\": \"Tabela\",\r\n        \"inst:nomeDocumentoList\": \"Tabela de Datasets de Geração por Fonte Primária\",\r\n        \"inst:rotuloDocumentoList\": \"Comercialização de Energia\",\r\n        \"inst:estruturaDocumentoList\": \"Parte do Processo\",\r\n        \"inst:valorList\": \"Analítico\",\r\n        \"inst:nivelAcessoList\": \"Público\",\r\n        \"inst:midiaList\": \"Digital\",\r\n        \"inst:formaList\": \"Original\",\r\n        \"inst:insercaoList\": \"Upload\",\r\n        \"inst:custodiadorList\": \"CCEE\",\r\n        \"inst:mesReferencia\": \"01\",\r\n        \"inst:anoReferencia\": \"2023\",\r\n        \"inst:categoria\": \"fruta\",\r\n        \"inst:palavraChave\": \"banana,abacaxi,morango\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"name\": \"perda_rb_mes_2023.csv\",\r\n    \"content\": {\r\n    \"mimeType\":\"txt/csv\"\r\n    },\r\n\r\n    \"properties\": {\r\n        \"inst:processoTransversalList\": \"Prover Informações ao Mercado\",\r\n        \"inst:subprocessoTransversalList\": \"Disponibilizar Informações ao Mercado\",\r\n        \"inst:tipoDocumentalList\": \"Tabela de Datasets\",\r\n        \"inst:origem\": \"PDA\",\r\n        \"inst:idTransacao\": \"transação\",\r\n        \"inst:cnpj\": \"03034433000156\",\r\n        \"inst:especieList\": \"Tabela\",\r\n        \"inst:nomeDocumentoList\": \"Tabela de Datasets do Total de Perdas de Rede Básica Mensal\",\r\n        \"inst:rotuloDocumentoList\": \"Comercialização de Energia\",\r\n        \"inst:estruturaDocumentoList\": \"Parte do Processo\",\r\n        \"inst:valorList\": \"Analítico\",\r\n        \"inst:nivelAcessoList\": \"Público\",\r\n        \"inst:midiaList\": \"Digital\",\r\n        \"inst:formaList\": \"Original\",\r\n        \"inst:insercaoList\": \"Upload\",\r\n        \"inst:custodiadorList\": \"CCEE\",\r\n        \"inst:mesReferencia\": \"04\",\r\n        \"inst:anoReferencia\": \"2023\",\r\n        \"inst:categoria\": \"Mercado de Curto Prazo, Dados Gerais\",\r\n        \"inst:palavraChave\": \"perdas,geracao,consumo,rateio\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -964,17 +964,17 @@
 	],
 	"variable": [
 		{
-			"id": "e44b672a-5e2f-47a5-8f39-ee500fbb478f",
+			"id": "83bb78e4-d421-47bf-b0ba-645eb962ce5b",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "c62dec15-e092-4f5f-b7cc-fc8a1f70177d",
+			"id": "40f31db9-7f9d-48b8-b9dd-126c6f771343",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "22e78b56-2aa7-4cb7-a2e5-aa012269f432",
+			"id": "4a2834a4-f6c2-42a0-b8cb-4f21c913b6ec",
 			"key": "elemento",
 			"value": "inst_document"
 		}
