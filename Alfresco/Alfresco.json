@@ -895,6 +895,18 @@
 							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 2,\n            \"hasMoreItems\": false,\n            \"totalItems\": 2,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:49:19.459+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"cfa90ad8-1f36-4e61-90c7-56fad4c519de\",\n                    \"createdAt\": \"2023-03-02T00:48:29.842+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testepesego.csv\",\n                    \"location\": \"nodes\",\n                    \"id\": \"b72c209b-ca5b-432b-93d6-0c1b3f91dec5\"\n                }\n            },\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:54:42.612+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"98b20bfe-ad8a-48e7-a12d-6894590c2de7\",\n                    \"createdAt\": \"2023-03-02T00:54:09.892+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testemaca.txt\",\n                    \"location\": \"nodes\",\n                    \"id\": \"a085d0fe-6f12-41e9-aed9-1ec3e6690b3d\"\n                }\n            }\n        ]\n    }\n}"
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "4c1ad7cf-adc8-432f-9a5a-329b8d24e1cf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "489c2a8e-ea85-4519-aeb0-b16db8e8ed39"
@@ -1024,17 +1036,17 @@
 	],
 	"variable": [
 		{
-			"id": "c37b5bfa-b787-4835-87bf-e19654d00903",
+			"id": "c321b5ee-02cc-4627-bea5-481d1f3914c6",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "715e6a2d-800d-4007-bd0e-edf54179bf2b",
+			"id": "22504d5e-27a2-4bf9-8abf-6c9b516727c4",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "732f9617-3302-404d-b58a-3c86c66e7b41",
+			"id": "d7033f41-40c1-4b4b-835f-7fe6c63ca805",
 			"key": "elemento",
 			"value": "inst_document"
 		}
