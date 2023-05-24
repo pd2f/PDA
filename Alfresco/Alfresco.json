@@ -223,7 +223,7 @@
 			"name": "Pesquisas",
 			"item": [
 				{
-					"name": "Discorvery",
+					"name": "Discorvery Repository Information",
 					"id": "20d3f1f2-f7ee-442f-b88d-9b343740a837",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1060,17 +1060,17 @@
 	],
 	"variable": [
 		{
-			"id": "261855ee-dca6-4460-95ce-0557255d1f5d",
+			"id": "0a08ae79-78dc-42ed-9d9e-9a05b3959e0e",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "f821b64a-2c51-458e-87da-adec883225fb",
+			"id": "36282d1e-07d3-446e-8a3b-375fc3a9948e",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "10fae426-6c70-4033-9557-bb30e4fb368e",
+			"id": "af750fb8-2c07-4dcd-ac4e-ae3b61512b6f",
 			"key": "elemento",
 			"value": "inst_document"
 		}
