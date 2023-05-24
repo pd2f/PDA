@@ -405,6 +405,121 @@
 					]
 				},
 				{
+					"name": "Discorvery CCEE Folders",
+					"id": "34efb6e5-a43d-4212-bb83-e13e8d5b6006",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/queries/sites?term=ccee",
+							"host": [
+								"{{dominio}}"
+							],
+							"path": [
+								"alfresco",
+								"api",
+								"-default-",
+								"public",
+								"alfresco",
+								"versions",
+								"1",
+								"queries",
+								"sites"
+							],
+							"query": [
+								{
+									"key": "term",
+									"value": "ccee"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "e12403d3-12d7-4cef-a6d9-1ef5c29dc40a",
+							"name": "Discorvery CCEE",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://homged.energia.org.br/alfresco/api/-default-/public/alfresco/versions/1/queries/sites?term=ccee",
+									"protocol": "https",
+									"host": [
+										"homged",
+										"energia",
+										"org",
+										"br"
+									],
+									"path": [
+										"alfresco",
+										"api",
+										"-default-",
+										"public",
+										"alfresco",
+										"versions",
+										"1",
+										"queries",
+										"sites"
+									],
+									"query": [
+										{
+											"key": "term",
+											"value": "ccee"
+										}
+									]
+								}
+							},
+							"status": "200",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 23 Feb 2023 17:55:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips mod_jk/1.2.48"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"visibility\": \"PUBLIC\",\n                    \"guid\": \"f1b629ba-0234-47eb-884f-36205afac95c\",\n                    \"id\": \"ccee\",\n                    \"preset\": \"site-dashboard\",\n                    \"title\": \"CCEE\"\n                }\n            }\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
 					"name": "Discorvery Tags",
 					"id": "f9e3771e-f755-41f8-bd1d-48be4684bfac",
 					"protocolProfileBehavior": {
@@ -1060,17 +1175,17 @@
 	],
 	"variable": [
 		{
-			"id": "0a08ae79-78dc-42ed-9d9e-9a05b3959e0e",
+			"id": "ca08edd8-2172-41f7-9c18-a779c27cd424",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "36282d1e-07d3-446e-8a3b-375fc3a9948e",
+			"id": "6d94e7e5-76d9-487b-a324-318eddebdb3e",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "af750fb8-2c07-4dcd-ac4e-ae3b61512b6f",
+			"id": "e105ebdb-c209-4bfa-8dd5-e807a419e888",
 			"key": "elemento",
 			"value": "inst_document"
 		}
