@@ -405,7 +405,7 @@
 					]
 				},
 				{
-					"name": "Discorvery CCEE Folders",
+					"name": "Discorvery Relative Path",
 					"id": "34efb6e5-a43d-4212-bb83-e13e8d5b6006",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -414,7 +414,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/queries/sites?term=ccee",
+							"raw": "{{dominio}}/alfresco/api/-default-/public/alfresco/versions/1/nodes/-root-?relativePath=Sites/ccee/api/tmp_pda",
 							"host": [
 								"{{dominio}}"
 							],
@@ -426,13 +426,13 @@
 								"alfresco",
 								"versions",
 								"1",
-								"queries",
-								"sites"
+								"nodes",
+								"-root-"
 							],
 							"query": [
 								{
-									"key": "term",
-									"value": "ccee"
+									"key": "relativePath",
+									"value": "Sites/ccee/api/tmp_pda"
 								}
 							]
 						}
@@ -1175,17 +1175,17 @@
 	],
 	"variable": [
 		{
-			"id": "ca08edd8-2172-41f7-9c18-a779c27cd424",
+			"id": "bd920cba-4b68-4ec9-89e7-fccf97d30cbd",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "6d94e7e5-76d9-487b-a324-318eddebdb3e",
+			"id": "7210d519-662c-44e4-9886-7a731ba5d581",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "e105ebdb-c209-4bfa-8dd5-e807a419e888",
+			"id": "4670a911-e8fa-4a99-8abf-655219411d2c",
 			"key": "elemento",
 			"value": "inst_document"
 		}
