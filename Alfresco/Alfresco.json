@@ -1442,6 +1442,68 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 2,\n            \"hasMoreItems\": false,\n            \"totalItems\": 2,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:49:19.459+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"cfa90ad8-1f36-4e61-90c7-56fad4c519de\",\n                    \"createdAt\": \"2023-03-02T00:48:29.842+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testepesego.csv\",\n                    \"location\": \"nodes\",\n                    \"id\": \"b72c209b-ca5b-432b-93d6-0c1b3f91dec5\"\n                }\n            },\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:54:42.612+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"98b20bfe-ad8a-48e7-a12d-6894590c2de7\",\n                    \"createdAt\": \"2023-03-02T00:54:09.892+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testemaca.txt\",\n                    \"location\": \"nodes\",\n                    \"id\": \"a085d0fe-6f12-41e9-aed9-1ec3e6690b3d\"\n                }\n            }\n        ]\n    }\n}"
+						},
+						{
+							"id": "806a02d0-064d-4c0c-b2c7-e345fed3b7bc",
+							"name": "Consulta de Documentos",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document as d join inst:origemAspect as asp on d.cmis:objectId=asp.cmis:objectId where d.inst:processoTransversalList = 'Prover Informações ao Mercado' and d.inst:nomeDocumentoList='Tabela de Datasets de CCEN de Dados Mensais de Balanço Energético' and asp.inst:origem='PDA'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search"
+							},
+							"status": "200",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 15 Sep 2023 12:54:17 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-09-14T19:09:45.227+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/csv\",\n                        \"mimeTypeName\": \"Comma Separated Values (CSV)\",\n                        \"sizeInBytes\": 521,\n                        \"encoding\": \"ISO-8859-1\"\n                    },\n                    \"parentId\": \"f2bfa2e1-d856-4a56-b373-a8f4632ea6c2\",\n                    \"createdAt\": \"2023-09-13T18:39:15.249+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"ccen_balanco_energetico_mensal_2023.csv\",\n                    \"location\": \"nodes\",\n                    \"id\": \"a30e4fcb-d904-4259-8555-db9bc8e0e50c\"\n                }\n            }\n        ]\n    }\n}"
 						}
 					]
 				}
@@ -1582,17 +1644,17 @@
 	],
 	"variable": [
 		{
-			"id": "4e463edc-eac6-40c0-9ff0-b5fe35aeaf17",
+			"id": "961e076f-a40e-488b-9dee-0084daf23ebd",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "064b8fad-7a67-4e35-a67c-aeb8ff224868",
+			"id": "eb0a77be-d139-452e-84ad-5f43c63d9c2a",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "d4d57e84-4c1e-466b-b161-58a9bd0bfd03",
+			"id": "06d78ae7-29c6-4cf5-a978-167790d4977c",
 			"key": "elemento",
 			"value": "inst_document"
 		}
