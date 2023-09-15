@@ -1445,7 +1445,7 @@
 						},
 						{
 							"id": "806a02d0-064d-4c0c-b2c7-e345fed3b7bc",
-							"name": "Consulta de Documentos",
+							"name": "Exemplo de Join",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1644,17 +1644,17 @@
 	],
 	"variable": [
 		{
-			"id": "961e076f-a40e-488b-9dee-0084daf23ebd",
+			"id": "8c395719-a75c-404f-b45e-d0a004616bcb",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "eb0a77be-d139-452e-84ad-5f43c63d9c2a",
+			"id": "3321c4b8-7d58-4e44-8140-30d866dfc3de",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "06d78ae7-29c6-4cf5-a978-167790d4977c",
+			"id": "5a9b1b73-63cb-4b20-ab99-51b6cd16d0d0",
 			"key": "elemento",
 			"value": "inst_document"
 		}
