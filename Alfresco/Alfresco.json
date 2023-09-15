@@ -1247,7 +1247,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document where inst:processoTransversalList = 'Prover Informações ao Mercado' and inst:nomeDocumentoList='Tabela de Datasets de CCEN de Dados Mensais de Balanço Energético'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document as d join inst:origemAspect as asp on d.cmis:objectId=asp.cmis:objectId where d.inst:processoTransversalList = 'Prover Informações ao Mercado' and d.inst:nomeDocumentoList='Tabela de Datasets de CCEN de Dados Mensais de Balanço Energético' and asp.inst:origem='PDA'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1582,17 +1582,17 @@
 	],
 	"variable": [
 		{
-			"id": "2b9d6bfe-5fb9-470e-9e05-384d088777e2",
+			"id": "4e463edc-eac6-40c0-9ff0-b5fe35aeaf17",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "a1739819-9039-4017-9387-10c0d14d9723",
+			"id": "064b8fad-7a67-4e35-a67c-aeb8ff224868",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "6c761f45-5fbc-4e38-b4e6-be011b9887df",
+			"id": "d4d57e84-4c1e-466b-b161-58a9bd0bfd03",
 			"key": "elemento",
 			"value": "inst_document"
 		}
