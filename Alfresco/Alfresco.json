@@ -1539,7 +1539,7 @@
 			"id": "2dd2233d-bb64-4080-94f9-5aa11b4894ab"
 		},
 		{
-			"name": "New Request",
+			"name": "Get Node",
 			"id": "2733c42c-a2e5-41f4-9406-6bb45e00c9b0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -1582,17 +1582,17 @@
 	],
 	"variable": [
 		{
-			"id": "9967424f-b304-4889-aea9-57bacfab48ab",
+			"id": "2b9d6bfe-5fb9-470e-9e05-384d088777e2",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "239e40df-1b65-4008-94bb-e6417bacadb1",
+			"id": "a1739819-9039-4017-9387-10c0d14d9723",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "42efc12e-13dd-4af5-8a0c-be5f8d0dc45b",
+			"id": "6c761f45-5fbc-4e38-b4e6-be011b9887df",
 			"key": "elemento",
 			"value": "inst_document"
 		}
