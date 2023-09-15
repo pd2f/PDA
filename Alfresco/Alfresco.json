@@ -1601,6 +1601,11 @@
 			"id": "2dd2233d-bb64-4080-94f9-5aa11b4894ab"
 		},
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "afa515c9-c4db-40d7-9d9b-52fc6ada0b0e"
+		},
+		{
 			"name": "Get Node",
 			"id": "2733c42c-a2e5-41f4-9406-6bb45e00c9b0",
 			"protocolProfileBehavior": {
@@ -1644,17 +1649,17 @@
 	],
 	"variable": [
 		{
-			"id": "8c395719-a75c-404f-b45e-d0a004616bcb",
+			"id": "e1379d70-0ef9-46ea-a3ce-6b00d7e703e6",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "3321c4b8-7d58-4e44-8140-30d866dfc3de",
+			"id": "71402ef2-24b9-4906-b844-86a841fc6573",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "5a9b1b73-63cb-4b20-ab99-51b6cd16d0d0",
+			"id": "6a6c8c8c-9215-4e00-9670-721f574eba85",
 			"key": "elemento",
 			"value": "inst_document"
 		}
