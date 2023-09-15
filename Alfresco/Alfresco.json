@@ -1235,6 +1235,215 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Consulta de Documentos",
+					"id": "2bb970ba-376b-431c-b010-775d0982bb16",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document where inst:processoTransversalList = 'Prover Informações ao Mercado' and inst:nomeDocumentoList='Tabela de Datasets de CCEN de Dados Mensais de Balanço Energético'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search"
+					},
+					"response": [
+						{
+							"id": "4fb715a4-46d1-42eb-a934-46eefe4b6783",
+							"name": "Descoberta de Pasta",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from cmis:folder WHERE cmis:name LIKE 'tmp_pda'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://homged.energia.org.br/alfresco/api/-default-/public/search/versions/1/search"
+							},
+							"status": "200",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 23 Feb 2023 19:04:44 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips mod_jk/1.2.48"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"createdAt\": \"2023-02-13T19:18:14.214+0000\",\n                    \"isFolder\": true,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"isFile\": false,\n                    \"createdByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"modifiedAt\": \"2023-02-23T19:04:32.362+0000\",\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"tmp_pda\",\n                    \"location\": \"nodes\",\n                    \"id\": \"cfa90ad8-1f36-4e61-90c7-56fad4c519de\",\n                    \"nodeType\": \"cm:folder\",\n                    \"parentId\": \"f68899de-2333-4f56-a0db-a566474a9fe0\"\n                }\n            }\n        ]\n    }\n}"
+						},
+						{
+							"id": "5f94212c-7a6e-4814-abcd-206c983beeb8",
+							"name": "Descoberta de Pasta",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from cmis:folder  WHERE cmis:name LIKE 'Tabelas de Datasets'  and  IN_TREE('b426c321-4cb9-4430-87b5-d86b4db401cb')  and  IN_TREE('e83732e7-cb03-405d-8441-8dad1f152bbf')\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://homged.energia.org.br/alfresco/api/-default-/public/search/versions/1/search"
+							},
+							"status": "200",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 02 Mar 2023 01:00:28 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips mod_jk/1.2.48"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"context\": {\n            \"consistency\": {\n                \"lastTxId\": 3327823\n            }\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"createdAt\": \"2023-02-13T19:21:20.024+0000\",\n                    \"isFolder\": true,\n                    \"search\": {\n                        \"score\": 4.1385646\n                    },\n                    \"isFile\": false,\n                    \"createdByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"modifiedAt\": \"2023-02-17T20:20:55.803+0000\",\n                    \"modifiedByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"name\": \"Tabelas de Datasets\",\n                    \"location\": \"nodes\",\n                    \"id\": \"9ac59c72-e39f-4d35-8275-ea13344ae920\",\n                    \"nodeType\": \"cm:folder\",\n                    \"parentId\": \"04f360a6-be7b-497b-bbc3-6010165c6968\"\n                }\n            }\n        ]\n    }\n}"
+						},
+						{
+							"id": "4c44dbfa-e5a7-47a0-bf05-8de484743d00",
+							"name": "Descoberta de Pasta",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from  inst:identificadorDocAspect WHERE inst:palavraChave like '%banana%'\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://homged.energia.org.br/alfresco/api/-default-/public/search/versions/1/search"
+							},
+							"status": "200",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 02 Mar 2023 01:07:43 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.34 (Red Hat) OpenSSL/1.0.2k-fips mod_jk/1.2.48"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json;charset=UTF-8"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 2,\n            \"hasMoreItems\": false,\n            \"totalItems\": 2,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:49:19.459+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"cfa90ad8-1f36-4e61-90c7-56fad4c519de\",\n                    \"createdAt\": \"2023-03-02T00:48:29.842+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testepesego.csv\",\n                    \"location\": \"nodes\",\n                    \"id\": \"b72c209b-ca5b-432b-93d6-0c1b3f91dec5\"\n                }\n            },\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"modifiedAt\": \"2023-03-02T00:54:42.612+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"text/plain\",\n                        \"mimeTypeName\": \"Plain Text\",\n                        \"sizeInBytes\": 29,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"98b20bfe-ad8a-48e7-a12d-6894590c2de7\",\n                    \"createdAt\": \"2023-03-02T00:54:09.892+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"paux19846\",\n                        \"displayName\": \"PAULO DANIEL FERREIRA FRANCO\"\n                    },\n                    \"name\": \"testemaca.txt\",\n                    \"location\": \"nodes\",\n                    \"id\": \"a085d0fe-6f12-41e9-aed9-1ec3e6690b3d\"\n                }\n            }\n        ]\n    }\n}"
+						}
+					]
 				}
 			],
 			"id": "489c2a8e-ea85-4519-aeb0-b16db8e8ed39"
@@ -1361,17 +1570,17 @@
 	],
 	"variable": [
 		{
-			"id": "33678f0a-72e0-471c-89c5-7457cc500977",
+			"id": "88b9bb15-7054-4bd1-b1c4-ff2c38f06c0f",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
-			"id": "a15ecd92-283b-4f99-a28d-74c2ba9a7315",
+			"id": "13481723-4d75-414b-b633-c4981581342c",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
-			"id": "01fabaa1-b5f5-4bc7-9fc6-694588458bab",
+			"id": "15b6fc73-52bf-4e14-9d33-16781030dec8",
 			"key": "elemento",
 			"value": "inst_document"
 		}
