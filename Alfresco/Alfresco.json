@@ -245,6 +245,41 @@
 			"name": "Pesquisas",
 			"item": [
 				{
+					"name": "GSEM",
+					"item": [
+						{
+							"name": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search",
+							"id": "7ab6609b-f77d-4a20-8d5a-4ce1566960cd",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": {
+										"username": "paux19846",
+										"password": "pAUx19846"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document as d join inst:origemAspect as asp  on d.cmis:objectId=asp.cmis:objectId join inst:aprovacaoAspect as ap on d.cmis:objectId=ap.cmis:objectId join cmis:document as doc on d.cmis:objectId=doc.cmis:objectId where d.inst:processoTransversalList = 'Gerir Habilitação Técnica e Comercial' and d.inst:nomeDocumentoList='Demonstração Contábil' and asp.inst:origem='SIOP' and d.inst:subprocessoTransversalList='Realizar Manutenção Comercial e Técnica' and ap.inst:statusDocumentoList = 'Aprovado'and doc.cmis:creationDate  > TIMESTAMP '2023-05-01T00:00:00.000Z' \",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search"
+							},
+							"response": []
+						}
+					],
+					"id": "cef5c167-dd5a-4e07-9903-7345472d0a16"
+				},
+				{
 					"name": "Discorvery Repository Information",
 					"id": "20d3f1f2-f7ee-442f-b88d-9b343740a837",
 					"protocolProfileBehavior": {
