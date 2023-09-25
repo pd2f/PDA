@@ -410,7 +410,36 @@
 							]
 						}
 					],
-					"id": "cef5c167-dd5a-4e07-9903-7345472d0a16"
+					"id": "cef5c167-dd5a-4e07-9903-7345472d0a16",
+					"auth": {
+						"type": "basic",
+						"basic": {
+							"username": "paux19846",
+							"password": "12345678"
+						}
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "11bbc84d-7970-43e0-a509-4873d680ad14",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "22defb3c-af8d-44c8-9646-842952146a1a",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
 				},
 				{
 					"name": "Discorvery Repository Information",
