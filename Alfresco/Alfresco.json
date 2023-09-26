@@ -248,6 +248,18 @@
 					"name": "GSEM",
 					"item": [
 						{
+							"name": "Get Node",
+							"id": "2733c42c-a2e5-41f4-9406-6bb45e00c9b0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
 							"name": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search",
 							"id": "7ab6609b-f77d-4a20-8d5a-4ce1566960cd",
 							"protocolProfileBehavior": {
@@ -406,6 +418,68 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"rtili01d0\",\n                        \"displayName\": \"RICARDO  TILI\"\n                    },\n                    \"modifiedAt\": \"2021-04-30T19:14:24.857+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"application/pdf\",\n                        \"mimeTypeName\": \"Adobe PDF Document\",\n                        \"sizeInBytes\": 134517,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"091b55b3-aefe-4dba-b20e-36a2959bb9c3\",\n                    \"createdAt\": \"2021-04-30T19:14:21.862+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"admin\",\n                        \"displayName\": \"Administrator\"\n                    },\n                    \"name\": \"dc-2020-pop-energia-9952.pdf\",\n                    \"location\": \"nodes\",\n                    \"id\": \"4a4c2a02-a99c-4177-bedf-8e4df0528866\"\n                }\n            }\n        ]\n    }\n}"
+								},
+								{
+									"id": "46b1f209-015c-43b0-a94e-1ea076f18c4c",
+									"name": "REN1014",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document as d join inst:origemAspect as asp on d.cmis:objectId = asp.cmis:objectId join inst:segurancaMercadoAspect as seg on d.cmis:objectId = seg.cmis:objectId where asp.inst:origem='PORTAL' and d.inst:nomeDocumentoList='Tabela de Classificação de Comercializadores' and d.inst:subprocessoTransversalList='Divulgar Informações de Segurança do Mercado' and seg.inst:isClassificacaoComerc=false\",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search"
+									},
+									"status": "200",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 25 Sep 2023 21:02:07 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "Thu, 01 Jan 1970 00:00:00 GMT"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json;charset=UTF-8"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"list\": {\n        \"pagination\": {\n            \"count\": 1,\n            \"hasMoreItems\": false,\n            \"totalItems\": 1,\n            \"skipCount\": 0,\n            \"maxItems\": 100\n        },\n        \"entries\": [\n            {\n                \"entry\": {\n                    \"isFile\": true,\n                    \"createdByUser\": {\n                        \"id\": \"mmolina\",\n                        \"displayName\": \"MARCELO  MOLINA\"\n                    },\n                    \"modifiedAt\": \"2023-09-25T20:23:52.935+0000\",\n                    \"nodeType\": \"inst:document\",\n                    \"content\": {\n                        \"mimeType\": \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\",\n                        \"mimeTypeName\": \"Microsoft Excel 2007\",\n                        \"sizeInBytes\": 9092,\n                        \"encoding\": \"UTF-8\"\n                    },\n                    \"parentId\": \"bd429f9d-7cf6-4e48-9762-aa21537ebb4b\",\n                    \"createdAt\": \"2023-09-25T20:09:59.432+0000\",\n                    \"isFolder\": false,\n                    \"search\": {\n                        \"score\": 1\n                    },\n                    \"modifiedByUser\": {\n                        \"id\": \"dolopes\",\n                        \"displayName\": \"DANIEL OLIVEIRA LOPES\"\n                    },\n                    \"name\": \"67b4edd9-77a0-4b18-8276-0aa0feaf6c58\",\n                    \"location\": \"nodes\",\n                    \"id\": \"3bc07b39-0076-4db4-8b59-91b719770dc6\"\n                }\n            }\n        ]\n    }\n}"
 								}
 							]
 						}
@@ -1928,18 +2002,6 @@
 		{
 			"name": "Obter",
 			"item": [
-				{
-					"name": "Get Node",
-					"id": "2733c42c-a2e5-41f4-9406-6bb45e00c9b0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
-				},
 				{
 					"name": "Get Node Copy",
 					"id": "4937ab8f-329a-4998-a88c-d23a9da6d37d",
