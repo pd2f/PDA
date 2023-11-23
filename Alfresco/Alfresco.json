@@ -2021,15 +2021,15 @@
 	"auth": {
 		"type": "basic",
 		"basic": {
-			"username": "usr_nifi_pda",
-			"password": "12345678"
+			"password": "pAUx19846",
+			"username": "paux19846"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "bebc91b0-d62a-43e1-a39e-1a388d05aaf3",
+				"id": "f04c8cf4-2909-44d1-bf35-c65a6d7f6d79",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2039,7 +2039,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ad942fa0-04ff-44d1-8f11-03a1d2fd5d4f",
+				"id": "2f65cd43-f4a9-44d1-a443-fa2234c57ff5",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2049,14 +2049,17 @@
 	],
 	"variable": [
 		{
+			"id": "872f71b9-6b9d-4cec-8af4-07a945a93e42",
 			"key": "id",
 			"value": "918e5d02-1b75-4125-98b9-549ac1ff3917"
 		},
 		{
+			"id": "88d80d83-1f37-4c16-bde6-1bdf7969b353",
 			"key": "dominio",
 			"value": "https://homged.energia.org.br"
 		},
 		{
+			"id": "bf8968d0-7172-4d7f-851f-80aa4a563393",
 			"key": "elemento",
 			"value": "inst_document"
 		}
