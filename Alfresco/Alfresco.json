@@ -519,7 +519,7 @@
 					"name": "Lixeira",
 					"item": [
 						{
-							"name": "{{alfresco_host}}/alfresco/api/-default-/public/search/versions/1/search Copy",
+							"name": "Trash List",
 							"id": "89c9f234-5cf5-4cd2-b6c5-e58feb36b961",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
