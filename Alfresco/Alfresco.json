@@ -760,7 +760,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"query\": {\r\n        \"query\": \"select * from inst:document as d join inst:origemAspect as asp  on d.cmis:objectId=asp.cmis:objectId join inst:aprovacaoAspect as ap on d.cmis:objectId=ap.cmis:objectId join cmis:document as doc on d.cmis:objectId=doc.cmis:objectId where d.inst:processoTransversalList = 'Gerir Habilitação Técnica e Comercial' and d.inst:nomeDocumentoList='Demonstração Contábil' and asp.inst:origem='SIOP' and d.inst:subprocessoTransversalList='Realizar Manutenção Comercial e Técnica' and ap.inst:statusDocumentoList = 'Aprovado'and doc.cmis:creationDate  > TIMESTAMP '2023-05-01T00:00:00.000Z' \",\r\n        \"language\": \"cmis\"\r\n    }\r\n}",
+									"raw": "",
 									"options": {
 										"raw": {
 											"language": "json"
